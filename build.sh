@@ -232,7 +232,8 @@ git_clone() {
 	# filecash/v0.9.0
     source $CLONE_AND_CHECKOUT "https://github.com/filecash/go-state-types.git" go-state-types "21726b71c34fa326fc0bed9bfa300f197fee7af7"  
 	# filecash/v0.9.0
-    source $CLONE_AND_CHECKOUT "https://github.com/filecash/bellman.git" bellperson "54854fa048ec508ebbdc7c06aa4360602612819b"
+    #source $CLONE_AND_CHECKOUT "https://github.com/filecash/bellman.git" bellperson "54854fa048ec508ebbdc7c06aa4360602612819b"
+    source $CLONE_AND_CHECKOUT "https://github.com/hysci/bellman.git" bellperson "8e1218d8e3b1b5c36849bc3b091178a30eaa47bd"
 	# filecash/v0.7.0
     source $CLONE_AND_CHECKOUT "https://github.com/filecash/go-paramfetch.git" go-paramfetch "829f513be2b5dacc424ef6be1762c39c7d81b420"
 	# filecash/v0.9.0
